@@ -80,7 +80,7 @@ while (1)
     if (bot1 == 0)// pregunto si el boton1 se apreto
     {
       _delay_ms(100);// Utilizo un antirrebote(esperando a que las minimas vibraciones que ocacionan las chapitas del boton se detengan y ahi realmente evaluar el estado del boton)
-      while(bot1==0){} //Se queda en un bucle preguntando si se apreto el boton1 +++
+      while(bot1==0){} //Se queda en un bucle preguntando hasta que se termine de apretar el boton1
       _delay_ms(100); // vuelvo a utilizar un antirebote
 
       flag_boton1 = ~flag_boton1; // Utilizo esta linea para cambiar el estado de la flag_boton1
