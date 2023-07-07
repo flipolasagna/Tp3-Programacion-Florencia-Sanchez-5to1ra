@@ -34,7 +34,6 @@
 #define led5 (PORTD |= (1 << PD4)) // Defino Led5
 #define led6 (PORTD |= (1 << PD5)) // Defino Led6
 #define led7 (PORTD |= (1 << PD6)) // Defino Led7
-#define led7 (PORTD |= (1 << PD6)) // Defino Led7
 #define led8 (PORTD |= (1 << PD7)) // Defino Led8
 ```
 ###### ↳ inicio
